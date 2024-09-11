@@ -34,6 +34,7 @@ header{
 .menu ul{
     display: flex;
     gap: 32px;
+    font-size: 30px;
 }
 main{
     flex-grow: 1;
@@ -78,6 +79,8 @@ main{
     background-color: lightgray;
 }
 footer{
-    background-color: darkorange;
-    height: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
