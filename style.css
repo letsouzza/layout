@@ -1,16 +1,39 @@
+/* RESET */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul, ol, li{
+    list-style: none;
+}
+/* FIM RESET */
+
 body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    padding-inline: 64px;
+    /* O padding-inline da uma distância nos lados */
 }
 header{
-   background-color: aqua;
    height: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.logo{
+    background-color: aqua;
+    height: 64px;
+    width: 64px;
+}
+.menu ul{
+    display: flex;
+    gap: 32px;
 }
 main{
     background-color: lightpink;
