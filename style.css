@@ -61,28 +61,26 @@ main{
 .acao button{
     height: 100px;
     width: 400px;
-    font-size: 40px;
+    font-size: 30px;
     background-color: rgba(239, 239, 239, 0.363);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .social{
     width: 90%;
     display: flex;
 }
 .social .face{
-    height: 100px;
-    width: 100px;
-    background-image: url(./img/facebook.png);
-    background-size: 100px;
-    border-radius: 50%;
+    height: 90px;
+    width: 120px;
+    background-image: url(./img/face.png);
+    background-size: 110px;
     /* boder-radius serve para mudar a forma (deixar redondo) */
 }
 .social .insta{
-    height: 80px;
-    width: 80px;
-    background-image: url(./img/insta.png);
-    background-size: 80px;
-    border-radius: 50%;
+    height: 150px;
+    width: 130px;
+    background-image: url(./img/instagram.png);
+    background-size: 130px;
     /* boder-radius serve para mudar a forma (deixar redondo) */
 }
 .imagem{
